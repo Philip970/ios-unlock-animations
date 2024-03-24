@@ -12,7 +12,7 @@ interface SRM_TextProps {
   [otherProps: string]: any;
 }
 
-const SRM_Text: React.FunctionComponent<SRM_TextProps> = ({
+const SRM_Text: React.FC<SRM_TextProps> = ({
   children,
   style,
   color = Colors.medium,
