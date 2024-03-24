@@ -3,7 +3,7 @@ import { Text, TextStyle } from "react-native";
 import defaultStyles from "../../configs/styles";
 import { Colors, FontSizes, FontWeights } from "../../configs/design";
 
-interface SRM_TextProps {
+interface IOS_TextProps {
   children: React.ReactNode;
   color?: Colors;
   style?: TextStyle[] | TextStyle;
@@ -12,7 +12,7 @@ interface SRM_TextProps {
   [otherProps: string]: any;
 }
 
-const SRM_Text: React.FunctionComponent<SRM_TextProps> = ({
+const IOS_Text: React.FC<IOS_TextProps> = ({
   children,
   style,
   color = Colors.medium,
@@ -39,4 +39,4 @@ const SRM_Text: React.FunctionComponent<SRM_TextProps> = ({
   );
 };
 
-export default SRM_Text;
+export default IOS_Text;

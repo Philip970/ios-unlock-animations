@@ -1,1 +1,1 @@
-export { default } from "./SRM_Icon";
+export { default } from "./IOS_Icon";
